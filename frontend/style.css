@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form input {
+    flex: 1;
+    padding: 8px;
+}
+
+.form button {
+    padding: 8px 15px;
+}
+
+.filters {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.filters button {
+    margin: 0 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.actions button {
+    margin-left: 5px;
+}
