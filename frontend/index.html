@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Task Manager</h1>
+
+    <div class="form">
+        <input type="text" id="title" placeholder="Название задачи">
+        <input type="text" id="description" placeholder="Описание">
+        <button onclick="createTask()">Добавить</button>
+    </div>
+
+    <div class="filters">
+        <button onclick="loadTasks()">Все</button>
+        <button onclick="loadTasks('new')">Новые</button>
+        <button onclick="loadTasks('completed')">Выполненные</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
